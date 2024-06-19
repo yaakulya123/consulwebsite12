@@ -1,0 +1,576 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('background.jpg'); /* Replace with the actual background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.top-banner {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+.main-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.sub-heading {
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.highlight {
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.company-logos {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.company-logos p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logos span {
+    font-size: 1em;
+    margin: 10px 20px;
+    color: white;
+}
+
+.alert-banner {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+}
+
+.special-offer-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.special-offer-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.offer-text {
+    font-size: 1.5em;
+}
+
+.offer-bonuses {
+    font-size: 1.2em;
+}
+
+.fire {
+    color: red;
+    font-size: 1.2em;
+}
+
+.certification-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.certification-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.certification-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.certification-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certification-section ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.certification-comparison {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.certification-comparison .non-hacker,
+.certification-comparison .hacker {
+    text-align: center;
+    width: 45%;
+    padding: 20px;
+}
+
+.certification-comparison img {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.certification-comparison p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.certification-work-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.certification-work-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.certification-work-cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.card img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.2em;
+}
+
+.benefits-section {
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+}
+
+.benefits-section ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.benefits-section ul li {
+    margin: 20px 0;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.benefits-section ul li img {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.advantages-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.advantages-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.advantages-comparison {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.challenges, .solutions {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 40%;
+    text-align: left;
+}
+
+.challenges img, .solutions img {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.challenges h3, .solutions h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.challenges ul, .solutions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.challenges ul li, .solutions ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.challenges ul li img, .solutions ul li img {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.why-learn-hacking-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.why-learn-hacking-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.why-learn-cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.why-learn-cards .card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.why-learn-cards .card img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.why-learn-cards .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.why-learn-cards .card p {
+    font-size: 1.2em;
+}
+
+.why-learn-cards .card span {
+    font-size: 1em;
+    color: #ccc;
+}
+
+.additional-benefits-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.additional-benefits-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.additional-benefits-cards .card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.additional-benefits-cards .card img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.additional-benefits-cards .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.additional-benefits-cards .card p {
+    font-size: 1.2em;
+}
+
+.certification-offering-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.certification-offering-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.offering-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offering-cards .card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.offering-cards .card img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.offering-cards .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.offering-cards .card p {
+    font-size: 1.2em;
+}
+
+.course-cards-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.course-cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.course-cards .card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.course-cards .card img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.course-cards .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.course-cards .card p {
+    font-size: 1.2em;
+}
+
+.course-cards .stars {
+    color: gold;
+}
+
+.special-bonuses-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.special-bonuses-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.special-bonuses-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.bonus-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bonus-cards .card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.bonus-cards .card img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.bonus-cards .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.bonus-cards .card p {
+    font-size: 1.2em;
+}
+
+.bonus-cards .bonus-number {
+    font-size: 1em;
+    color: #ccc;
+}
+
+.certification-final-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.certification-final-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.certification-final-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certification-final-content img {
+    height: 200px;
+    margin-right: 20px;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.certification-final-text {
+    text-align: left;
+}
+
+.certification-final-text h3 {
+    font-size: 1.5em;
+    color: green;
+}
+
+.certification-final-text h4 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.certification-final-text p {
+    font-size: 1.2em;
+}
+
+.certification-final-text .highlight {
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+}
